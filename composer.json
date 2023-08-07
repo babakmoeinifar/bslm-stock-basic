@@ -1,0 +1,25 @@
+{
+    "name": "bslm/stock-basic",
+    "description": "Basalamiha stock basic",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Bslm\\Stock\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "babakMoeinifar",
+            "email": "babakus7@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bslm\\Stock\\StockServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
